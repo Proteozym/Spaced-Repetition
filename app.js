@@ -22,8 +22,6 @@ app.listen(PORT,console.log(
 
 import { WORST, BEST, calculate, getPercentOverdue, CORRECT } from 'sm2-plus';
 import { simulate} from 'sm2-plus';
-import {daysTillNextTestAlgorithm} from '../SM2P/supermemo_yavascript.js';
-import { ExportToCsv } from 'export-to-csv';
 
 const DAY_IN_MINISECONDS = 24 * 60 * 60 * 1000;
 const getDaysSinceEpoch = () => (
